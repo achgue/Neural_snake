@@ -1,4 +1,5 @@
 # Neural network for snake
+(in progress...)
 
 This project is based on RL (**Reinforcement Learning**), in other words we are techinng a software agent (in this case our player) how to behave based on how good it's doing.
 We actually are going to reward the agent every time he is doing good. By doing this he will understand if he has done good actions.
@@ -18,7 +19,7 @@ Agent
             -Model.train() --> using remember we train our model
 Game
 ---
-we have a game loop, within each iteration we call **play_step**(_action_). This procedure takes as argument an action that tells the snake what move it has to do.
+we have a game loop, within each iteration called **play_step**(_action_). This procedure takes as argument an action that tells the snake what move it has to do.
 After the move the procedure will return the reward, and if the game it's over it will return the score
 
 Model
